@@ -1,43 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Meyawo landing page.">
-    <meta name="author" content="Devcrud">
-    <title>MY PAGE - IRINA ELIE LETSARA</title>
-    <link rel="icon" href="assets/images/logo.png" type="image/png"> 
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/meyawo.css">
-</head>
+<?php include 'header.php' ?>
+<?php include 'navbar.php' ?>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <!-- Page Navbar -->
-    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
-        <div class="container">
-            <a class="logo" href="#">Hello people !</a>
-            <ul class="nav">
-                <li class="item">
-                    <a class="link" href="#home">Acceuil</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#about">À propos de moi</a>
-                </li>
-                <li class="item ml-md-3">
-                    <a href="#portfolio" class="btn btn-primary">Portfolio</a>
-                </li>
-            </ul>
-            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
-                <div class="hamburger-box">
-                    <div class="hamburger-inner"></div>
-                </div>
-            </a>
-        </div>
-    </nav>
-
-    <header id="home" class="header">
+<header id="home" class="header">
         <div class="overlay"></div>
         <div class="header-content container">
             <h1 class="header-title">
@@ -50,10 +16,8 @@
         </div>
     </header>
 
-    <section class="section pt-0" id="about">
-        <!-- container -->
+<section class="section pt-0" id="about">
         <div class="container text-center">
-            <!-- about wrapper -->
             <div class="about">
                 <div class="about-caption">
                     <p class="section-subtitle">Qui je suis ?</p>
@@ -76,16 +40,13 @@
                     </p>
                     <a href="assets/imgs/CV IRINA.pdf" class="btn-rounded btn btn-outline-primary mt-4">Téléchargez mon CV</a>
                 </div>
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section> <!-- end of about section -->
-
-    <!-- service section -->
+            </div>
+        </div>
+    </section> 
     <section class="section" id="service">
         <div class="container text-center">
             <p class="section-subtitle">Qu'est-ce que je fais?</p>
             <h6 class="section-title mb-6">Service</h6>
-            <!-- row -->
             <div class="row">
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
@@ -131,16 +92,13 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- end of row -->
+            </div>
         </div>
-    </section><!-- end of service section -->
-
-    <!-- portfolio section -->
+    </section>
     <section class="section" id="portfolio">
         <div class="container text-center">
             <p class="section-subtitle">Qu'est-ce que j'ai pu faire?</p>
             <h6 class="section-title mb-6">Portfolio</h6>
-            <!-- row -->
             <div class="row">
                 <div class="col-md-4">
                     <a href="assets/SiteVente/index.html" class="portfolio-card">
@@ -178,50 +136,20 @@
                         </span>
                     </a>
                 </div>
-            </div><!-- end of row -->
-        </div><!-- end of container -->
-    </section> <!-- end of portfolio section -->
-    <!-- section -->
+            </div>
+        </div>
+    </section>
     <section class="section-sm bg-primary">
-        <!-- container -->
         <div class="container text-center text-sm-left">
-            <!-- row -->
             <div class="row align-items-center">
                 <div class="col-sm offset-md-1 mb-4 mb-md-0">
                     <h6 class="title text-light">Vous voulez travaillez avec moi?</h6>
                     <p class="m-0 text-light">N'hésitez pas à me contacter et à m'engager</p>
                 </div>
                 <div class="col-sm offset-sm-2 offset-md-3">
-                    <a href="https://contacts.google.com/person/c1633078329348729219"><button class="btn btn-lg my-font btn-light rounded">Recrutez moi</button></a>
+                    <a href="contact.php"><button class="btn btn-lg my-font btn-light rounded">Recrutez moi</button></a>
                 </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of section -->
-    <!-- blog section -->
+            </div>
+        </div>
+    </section> 
     <div id="google_translate_element"></div>
-    
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>    
-    <!-- footer -->
-    <div class="container">
-        <footer class="footer">
-            <p class="mb-0" style="display: flex;justify-content: center;">Copyright
-                <script>document.write(new Date().getFullYear())</script> &copy; <a
-                    href="#">Irina</a> Letsara <a
-                    href="#"></a>
-            </p>
-        </footer>
-    </div> <!-- end of page footer -->
-
-    <!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-
-    <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
-
-    <!-- Meyawo js -->
-    <script src="assets/js/meyawo.js"></script>
-
-</body>
-
-</html>
