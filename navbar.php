@@ -1,4 +1,3 @@
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
             <a class="logo" href="#">Hello people !</a>

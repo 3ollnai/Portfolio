@@ -1,12 +1,16 @@
-<?php
-$title = "Portfolio | Contact";
-?>
-<?php include 'header.php' ?>
-<?php include 'navbar.php' ?>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Contact</title>
+    <link rel="icon" href="assets/images/logo.png" type="image/png"> 
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/meyawo.css">
 
-
-
-
-<?php include 'page-acceuil.php' ?>
-<?php include 'footer.php' ?>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<?php include 'navbar.php'; ?>
