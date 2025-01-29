@@ -7,7 +7,7 @@
         <div class="header-content container">
             <h1 class="header-title">
                 <span class="up">Bonsoir !</span>
-                <span class="down">Je suis Irina Elie Letsara</span>
+                <span class="down">Je suis Naïma Abdelaoui</span>
             </h1>
             <p class="header-subtitle">DÉVELOPPEUR WEB FULLSTACK</p>
 
@@ -42,147 +42,128 @@
             </div>
         </div>
     </section> 
-    <section class="section" id="service">
-        <div class="container text-center">
-            <p class="section-subtitle">Qu'est-ce que je fais?</p>
-            <h6 class="section-title mb-6">Service</h6>
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/html.png"
-                                alt=""
-                                class="icon">
-                            <h6 class="title">HTML/CSS</h6>
-                            <p class="subtitle">Je pourrai concevoir vos différents sites en utilisant html/css avec les compétence pour Flexbox et Grid</p>
-                        </div>
-                    </div>
+    <section class="section py-10 bg-gray-100" id="service">
+    <div class="container text-center">
+        <p class="section-subtitle text-gray-600">Qu'est-ce que je fais?</p>
+        <h6 class="section-title mb-6 text-2xl font-bold text-gray-800">Compétences</h6>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="service-card border border-gray-300 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-300">
+                <div class="body p-6 text-center">
+                    <img src="assets/imgs/HtmlCSS.png" alt="HTML/CSS" class="icon mb-4 w-16 mx-auto" />
+                    <h6 class="title font-semibold text-lg text-gray-800">HTML/CSS</h6>
+                    <p class="subtitle mt-2 text-gray-600">Je pourrai concevoir vos différents sites en utilisant HTML/CSS avec les compétences pour Flexbox et Grid.</p>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/javascript.png"
-                                alt=""
-                                class="icon">
-                            <h6 class="title">JavaScript</h6>
-                            <p class="subtitle">Je peux donner une intéraction lors de la visite de vos site, en utilisant du Javascript en utilisant différentes librairies.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="service-card border border-gray-300 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-300">
+                <div class="body p-6 text-center">
+                    <img src="assets/imgs/JS.png" alt="JavaScript" class="icon mb-4 w-16 mx-auto" />
+                    <h6 class="title font-semibold text-lg text-gray-800">JavaScript</h6>
+                    <p class="subtitle mt-2 text-gray-600">Je peux donner une interaction lors de la visite de vos sites, en utilisant du JavaScript avec différentes librairies.</p>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/javascript.png"
-                                alt=""
-                                class="icon">
-                            <h6 class="title">JavaScript</h6>
-                            <p class="subtitle">Je peux donner une intéraction lors de la visite de vos site, en utilisant du Javascript en utilisant différentes librairies.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="service-card border border-gray-300 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-300">
+                <div class="body p-6 text-center">
+                    <img src="assets/imgs/Laravel.png" alt="Laravel" class="icon mb-4 w-16 mx-auto" />
+                    <h6 class="title font-semibold text-lg text-gray-800">Laravel</h6>
+                    <p class="subtitle mt-2 text-gray-600">Je peux créer des applications web robustes avec Laravel.</p>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/javascript.png"
-                                alt=""
-                                class="icon">
-                            <h6 class="title">JavaScript</h6>
-                            <p class="subtitle">Je peux donner une intéraction lors de la visite de vos site, en utilisant du Javascript en utilisant différentes librairies.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="service-card border border-gray-300 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-300">
+                <div class="body p-6 text-center">
+                    <img src="assets/imgs/Tailwind.png" alt="Tailwind CSS" class="icon mb-4 w-16 mx-auto" />
+                    <h6 class="title font-semibold text-lg text-gray-800">Tailwind CSS</h6>
+                    <p class="subtitle mt-2 text-gray-600">Je peux concevoir des interfaces élégantes et réactives avec Tailwind CSS.</p>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/wordpress.png"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Wordpress</h6>
-                            <p class="subtitle">J'ai des connaissances pour donner des cours sur le domaine de wordpress ou bien vous concevoir directement.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="service-card border border-gray-300 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-300">
+                <div class="body p-6 text-center">
+                    <img src="assets/imgs/React.webp" alt="React" class="icon mb-4 w-16 mx-auto" />
+                    <h6 class="title font-semibold text-lg text-gray-800">React</h6>
+                    <p class="subtitle mt-2 text-gray-600">J'ai des connaissances pour donner des cours ou concevoir des applications avec React.</p>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/javascript.png"
-                                alt=""
-                                class="icon">
-                            <h6 class="title">JavaScript</h6>
-                            <p class="subtitle">Je peux donner une intéraction lors de la visite de vos site, en utilisant du Javascript en utilisant différentes librairies.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="service-card border border-gray-300 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-300">
+                <div class="body p-6 text-center">
+                    <img src="assets/imgs/Jquery.png" alt="Jquery" class="icon mb-4 w-16 mx-auto" />
+                    <h6 class="title font-semibold text-lg text-gray-800">Jquery</h6>
+                    <p class="subtitle mt-2 text-gray-600">Je peux ajouter des interactions dynamiques à vos sites avec Jquery.</p>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/boostrap.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Boostrap</h6>
-                            <p class="subtitle">En utilisant la librairie de boostrap je pourrai alleger votre site web et le rendre beaucoup plus rapide.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="service-card border border-gray-300 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-300">
+                <div class="body p-6 text-center">
+                    <img src="assets/imgs/Bootstrap.png" alt="Bootstrap" class="icon mb-4 w-16 mx-auto" />
+                    <h6 class="title font-semibold text-lg text-gray-800">Bootstrap</h6>
+                    <p class="subtitle mt-2 text-gray-600">En utilisant Bootstrap, je peux alléger votre site web et le rendre plus rapide.</p>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/javascript.png"
-                                alt=""
-                                class="icon">
-                            <h6 class="title">JavaScript</h6>
-                            <p class="subtitle">Je peux donner une intéraction lors de la visite de vos site, en utilisant du Javascript en utilisant différentes librairies.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="service-card border border-gray-300 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 duration-300">
+                <div class="body p-6 text-center">
+                    <img src="assets/imgs/PHP.png" alt="PHP" class="icon mb-4 w-16 mx-auto" />
+                    <h6 class="title font-semibold text-lg text-gray-800">PHP</h6>
+                    <p class="subtitle mt-2 text-gray-600">Je peux créer des applications web dynamiques avec PHP.</p>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section" id="portfolio">
-        <div class="container text-center">
-            <p class="section-subtitle">Qu'est-ce que j'ai pu faire?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="assets/SiteVente/index.html" class="portfolio-card">
-                        <img src="assets/imgs/ezgif-6-2de3d762ed.png" class="portfolio-card-img"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Maquette UX Design</h5>
-                                <p class="font-weight-normal">Category: Site de vente</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="assets/Burger_IRINA/Burger_IRINA/Burger_MODI/index.html" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/ezgif-6-715e476ef1.webp" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Projet en groupe Site web</h5>
-                                    <p class="font-weight-normal">Categorie: Site burger</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://neymounette.github.io/Yango_Projet/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/ezgif-6-6e13903eec.webp" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Site en boostrap</h5>
-                                    <p class="font-weight-normal">Categorie : Yango</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                
+    </div>
+</section>
+
+    <section class="section py-10" id="portfolio">
+    <div class="container mx-auto text-center">
+        <p class="section-subtitle text-gray-600">Qu'est-ce que j'ai pu faire?</p>
+        <h6 class="section-title mb-8 text-2xl font-bold">Portfolio</h6>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="relative overflow-hidden rounded-lg shadow-lg group transition-transform duration-300">
+                <a href="assets/SiteVente/site-vente.php" class="block">
+                    <img class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="assets/imgs/ezgif-6-2de3d762ed.png" alt="Maquette UX Design" />
+                    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <span class="text-white font-semibold text-lg">Site vitrine : Site de vente</span>
+                    </div>
+                </a>
+            </div>
+            <div class="relative overflow-hidden rounded-lg shadow-lg group transition-transform duration-300">
+                <a href="assets/Projet-PHP/index.php" class="block">
+                    <img class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="assets/imgs/MaMoyenne.png" alt="PROJET PHP" />
+                    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <span class="text-white font-semibold text-lg">Projet PHP : Site de calculatrice de moyenne</span>
+                    </div>
+                </a>
+            </div>
+            <div class="relative overflow-hidden rounded-lg shadow-lg group transition-transform duration-300">
+                <a href="assets/Burger_IRINA/Burger_IRINA/Burger_MODI/index.html" class="block">
+                    <img class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="assets/imgs/ezgif-6-715e476ef1.webp" alt="Projet en groupe Site web" />
+                    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <span class="text-white font-semibold text-lg">Site vitrine : Site burger</span>
+                    </div>
+                </a>
+            </div>
+            <div class="relative overflow-hidden rounded-lg shadow-lg group transition-transform duration-300">
+                <a href="assets/SiteVente/index.html" class="block">
+                    <img class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="assets/imgs/ezgif-6-2de3d762ed.png" alt="Maquette UX Design" />
+                    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <span class="text-white font-semibold text-lg"></span>
+                    </div>
+                </a>
+            </div>
+            <div class="relative overflow-hidden rounded-lg shadow-lg group transition-transform duration-300">
+                <a href="assets/Yango_Projet-main/" class="block">
+                    <img class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="assets/imgs/ezgif-6-6e13903eec.webp" alt="Site en boostrap" />
+                    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <span class="text-white font-semibold text-lg">Projet Bootstrap : Yango</span>
+                    </div>
+                </a>
+            </div>
+            <div class="relative overflow-hidden rounded-lg shadow-lg group transition-transform duration-300">
+                <a href="assets/Projet-elephants/index.php" class="block">
+                    <img class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105" src="assets/imgs/ProjetElephant.png" alt="Projet 2e année" />
+                    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <span class="text-white font-semibold text-lg">Projet CAN : Site Joueur</span>
+                    </div>
+                </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
     <section class="section-sm bg-primary">
         <div class="container text-center text-sm-left">
             <div class="row align-items-center">

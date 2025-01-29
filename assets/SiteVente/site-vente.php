@@ -12,7 +12,7 @@
             <img src="assets/image/LOGO.png" alt="">
         </div>
         <ul class="nav_links">
-            <li class="active"><a href="index.html">Accueil</a></li>
+            <li class="active"><a href="#">Accueil</a></li>
             <li><a href="#">Catégorie</a></li>
             <li><a href="#">Trend</a></li>
             <li><a href="#">Shop</a></li>            
